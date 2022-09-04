@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --dark-blue: #3677a3;
+    --light-blue:#d5eaf8;
+    /* --light-blue: #85bde2; */
+}
+
+h1 {
+    text-align: center;
+    color: var(--dark-blue);
+    padding: 1rem;
+}
+
+
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input,
+label {
+    display: block;
+    padding: 1rem;
+}
+
+input {
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid var(--dark-blue);
+    border-radius: 0.5rem;
+    background-color: var(--light-blue);
+
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+.output {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    padding-top: 15px;
+    background-color: #85bde2;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-list {
+    padding-inline-start: 0px;
+}
+
+.portfolio {
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding:0.5rem;
+}
